@@ -6,6 +6,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="./styles.css">
     <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
     <title>Weather Icon</title>
@@ -37,25 +38,7 @@
                 </div>
             </div>
             <!--this part of the code is just satic for now prior to when i learn to integrate the forecast functionality-->
-            <div class="forecast">
-                <p id="forecast-header">Daily Forecast</p>
-                <div class="forecast-all">
-                    <div class="forecast-days">
-                        <img src="./assets/images/reshot-icon-sunny-weather-5SZXMBGK6T.svg" alt="weather icon">
-                        <p>tomorrow</p>
-                        <p>29°C</p>
-                    </div>
-                    <div class="forecast-days">
-                        <img src="./assets/images/reshot-icon-sunny-weather-5SZXMBGK6T.svg" alt="weather icon">
-                        <p>next tomorrow</p>
-                        <p>25°C</p>
-                    </div>
-                    <div class="forecast-days">
-                        <img src="./assets/images/reshot-icon-sunny-weather-5SZXMBGK6T.svg" alt="weather icon">
-                        <p>after next tomorrow</p>
-                        <p>27°C</p>
-                    </div>
-                </div>
+            <div class="weather-forecast" id="forecast">
             </div>
         </div>
         <p>this project was coded by <a href='https://github.com/Shvayne' target="_blank">Tiana </a> is <a href="https://github.com/Shvayne/weather-app" target="_blank">open-sourced on Github</a> and <a href='https://shvayne-weather-app.netlify.app/' target="_blank">hosted on Netlify</a></p>
